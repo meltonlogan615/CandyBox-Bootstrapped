@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kiley Stinks</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="stylesheets/candy.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/forms.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="logo"><a href="index.html">Logo</a></div>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li>
+            <div class="dropdown">
+              Account
+              <div class="dropdown-content">
+                <a href="wish-list.html">Wish List</a>
+                <a href="shipments.html">Shipments</a>
+                <a href="profile.html">Profile</a>
+              </div>
+            </div>
+          </li>
+          <li>Search</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <h1>Reach Out</h1>
+      <p>
+        We want to hear what you think. Local candies you think we're missing,
+        legendary candies from the other side of the world you would like to try
+        and find, or maybe we just plain got something wrong. Please feel free
+        to reach out to us and let us know.
+      </p>
+
+      <form>
+        <div>
+          <label for="name" class="title">Name:</label>
+          <input id="name" type="text" name="Name" required />
+        </div>
+
+        <div>
+          <label for="email" class="title">Email:</label>
+          <input id="email" type="email" name="UserEmail" required />
+        </div>
+
+        <div>
+          <label for="subject" class="title">Subject:</label>
+          <input id="subject" type="text" name="Subject" required />
+        </div>
+
+        <div>
+          <label for="message" class="title">Message:</label>
+          <textarea
+            id="message"
+            rows="10"
+            cols="50"
+            name="message"
+            required
+          ></textarea>
+        </div>
+
+        <div>
+          <button>Holler At Us</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="footer">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="terms.html">Terms & Service</a></li>
+        <li><a href="site-map.html">Site Map</a></li>
+        <li class="active"><a href="ContactUs.hml">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- JS for Bootstrap-->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
